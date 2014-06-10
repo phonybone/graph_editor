@@ -1,3 +1,5 @@
+
+
 function Graph() {
     this.nodes=new Object()	// k=name, v=Node()
     this.edges=new Object()	// k=<id>_<id>, v=Edge()
