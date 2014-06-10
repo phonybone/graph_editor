@@ -1,0 +1,30 @@
+* refactor edge-drawing code to edge class, likewise nodes
+* implement class-based style attributes where appropriate, eg stroke, stroke-width, fill, etc
+* implement inheritance of constructorsxb
+  
+* Right-click on nodes to bring up pop-up menus
+- allow editing of raw attributes
+- allow performing of operations on node
+
+* Aggregate nodes: sub-graphs
+
+* How to set graphics attributes of nodes (and edges)?
+Want to have drawables draw themselves; best way to specify attributes?
+Could sub-class...
+Want to allow user to define a particular type of node:
+- shape, fill, stroke, stroke-width
+-- shapes: rect, circle, poly-line, ellipse, pre-defined poly-lines (diamond, rhombus, triangle, pent-, hex-, sep-, octogons, etc)
+- could also be an image/icon
+- could be computed attribute?
+- random attributes (eg name, genetic info, whatever user wants)
+- upload from file...
+
+* drag-n-drop existing nodes
+* select node sets
+- manually
+- by selecting attribute values
+
+* DND to create nodes/edges
+* bio editor: adding in data sources, ajax calls, sessions, etc.
+
+* stress testing
