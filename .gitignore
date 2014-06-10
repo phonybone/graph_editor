@@ -1,2 +1,5 @@
-d3*js
-jquery*js
+d3.min.js
+d3.js
+jquery-1.8.2.js
+jquery-ui.js
+
